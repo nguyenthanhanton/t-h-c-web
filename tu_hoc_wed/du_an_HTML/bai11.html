@@ -1,0 +1,114 @@
+<!--  ul    unordered list  danh sach khong co thu tu
+  ol   ordered list  danh sách có thứ tụ
+  li   list item  là thẻ con trực tiếp của ul ,ol -->
+<!-- thẻ ul ol, li lồng nhau -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 11</title>
+</head>
+
+<body>
+    <!-- vi du
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <hr>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol> -->
+
+    <h1>How to luộc trứng</h1>
+    <h2>Nguyên liệu :</h2>
+    <ul>
+        <li>Trứng gà : 10 quả</li>
+        <li>Nước lọc : 1000ml</li>
+        <li> Nồi</li>
+        <li> Bếp ga</li>
+    </ul>
+    <h2>Cách chế biến</h2>
+    <ol>
+        <li>Sơ chế trứng : Rửa sạch shit</li>
+        <li>Bật bếp</li>
+        <li>Cho nồi lên Bếp</li>
+        <li>cho nước + trứng </li>
+        <li>Luộc 6 phút</li>
+        <li>Tắt bếp</li>
+    </ol>
+    <!-- 
+    dùng ul>li*5 ra 
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    ul>li*5{item1$} ra
+    <ul>
+        <li>item11</li>
+        <li>item12</li>
+        <li>item13</li>
+        <li>item14</li>
+        <li>item15</li>
+    </ul> 
+    ol tương tự 
+    trong ol có 2 thuộc tính 
+     1 dùng thường 
+
+     2 reversed  đảo ngược
+     cú pháp
+    <ol reversed>
+        
+    </ol>
+    3 type=""
+    <ol type="I">
+    </ol>
+    -->
+    <hr>
+    <ol type="I">
+        <li>Mở bài : Lorem ipsum dolor sit.</li>
+        <li>Thân bài : Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <ol type="1">
+                <li> Lorem ipsum dolor sit.</li>
+                <li> Lorem, ipsum dolor.
+                    <ol type="a">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Kết bài : Lorem, ipsum dolor.</li>
+    </ol>
+    <hr>
+    <ul>
+        <li>Menu item 1</li>
+        <li>Menu item 2
+            <ol type="I">
+                <li>menu item 2.1</li>
+                <li>menu item 2.2
+                    <ol>
+                        <li>menu item 2.2.1</li>
+                        <li>menu item 2.2.2</li>
+                        <li>menu item 2.2.3</li>
+                    </ol>
+                </li>
+                <li>menu item 2.3</li>
+                <li>menu item 2.4</li>
+            </ol>
+        </li>
+        <li>Menu item 3</li>
+        <li>Menu item 4</li>
+    </ul>
+</body>
+
+</html>
